@@ -1,5 +1,5 @@
-import { Maybe } from '../interfaces/util'
-import { Robot, RobotState } from '../interfaces/IRobot'
+import { Maybe } from '../../interfaces/util'
+import { Robot, RobotState } from '../../interfaces/IRobot'
 
 export class MockRobot implements Robot {
   constructor() { }
