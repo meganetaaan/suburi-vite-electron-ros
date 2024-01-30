@@ -5,6 +5,7 @@ import icon from '../../resources/icon.png?asset'
 import { installRobot } from './robotAPI'
 // import { ROS2Robot } from './services/ROS2Robot'
 import { MockRobot } from './services/MockRobot'
+import './publisher'
 
 function createWindow(): void {
   // Create the browser window.
