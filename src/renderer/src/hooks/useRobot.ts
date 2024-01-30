@@ -1,6 +1,6 @@
 import { startRobot, stopRobot } from "@renderer/robotRenderer"
 import { useCallback, useState } from "react"
-import { RobotState } from "src/main/interfaces/IRobot"
+import { RobotState } from "../../../interfaces/IRobot"
 
 export const useRobot = () => {
   const [robot, setRobot] = useState<RobotState>({ state: 'UNKNOWN' })

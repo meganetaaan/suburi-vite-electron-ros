@@ -1,6 +1,6 @@
 import { Client, Node, init } from "rclnodejs";
-import { Robot, RobotState } from '../interfaces/IRobot'
-import { Maybe } from "../interfaces/util";
+import { Robot, RobotState } from '../../interfaces/IRobot'
+import { Maybe } from "../../interfaces/util";
 
 export class ROS2Robot implements Robot {
   static robot: ROS2Robot

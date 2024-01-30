@@ -1,5 +1,5 @@
 import { ipcMain } from 'electron'
-import { Robot } from './interfaces/IRobot'
+import { Robot } from '../interfaces/IRobot'
 
 export async function installRobot(ipc: typeof ipcMain, robot: Robot) {
   ipc.handle('robot', async (_event, arg) => {
